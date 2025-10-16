@@ -24,7 +24,6 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-/// <reference types="Cypress" />
 
 Cypress.Commands.add('url', () => {
     cy.visit('https://demo.automationtesting.in/Index.html')
